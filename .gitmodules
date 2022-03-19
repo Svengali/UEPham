@@ -1,0 +1,3 @@
+[submodule "Source/ThirdParty/PhamLib"]
+	path = Source/ThirdParty/PhamLib
+	url = git@github.com:Svengali/Pham.git
