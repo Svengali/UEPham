@@ -1,3 +1,6 @@
 [submodule "Source/ThirdParty/PhamLib"]
 	path = Source/ThirdParty/PhamLib
 	url = git@github.com:Svengali/Pham.git
+[submodule "Source/ThirdParty/cblib"]
+	path = Source/ThirdParty/cblib
+	url = git@github.com:Svengali/cblib.git
