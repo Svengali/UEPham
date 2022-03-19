@@ -26,7 +26,7 @@ public class Pham : ModuleRules
 			new string[]
 			{
 				"Core",
-				"PhamLibrary",
+				"PhamLib",
 				"Projects"
 				// ... add other public dependencies that you statically link with here ...
 			}
