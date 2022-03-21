@@ -4,7 +4,9 @@
 #include "Core.h"
 #include "Modules/ModuleManager.h"
 #include "Interfaces/IPluginManager.h"
-#include "PhamLibrary/ExampleLibrary.h"
+
+#include "cblib_includes.h"
+#include "pham_core.h"
 
 #define LOCTEXT_NAMESPACE "FPhamModule"
 
@@ -46,8 +48,8 @@ void FPhamModule::ShutdownModule()
 	// we call this function before unloading the module.
 
 	// Free the dll handle
-	FPlatformProcess::FreeDllHandle(ExampleLibraryHandle);
-	ExampleLibraryHandle = nullptr;
+	//FPlatformProcess::FreeDllHandle(ExampleLibraryHandle);
+	//ExampleLibraryHandle = nullptr;
 }
 
 #undef LOCTEXT_NAMESPACE
