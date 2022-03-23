@@ -7,6 +7,8 @@ public class Pham : ModuleRules
 	public Pham(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+
+		CppStandard = CppStandardVersion.Cpp17;
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
@@ -27,7 +29,8 @@ public class Pham : ModuleRules
 			{
 				"Core",
 				"PhamLib",
-				"Projects"
+				"cblib",
+				"Projects",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
